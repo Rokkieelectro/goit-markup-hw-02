@@ -18,7 +18,6 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -132,4 +131,77 @@ header {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+}
+
+/*our benefits section*/
+
+.benefit-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.benefit-text{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*what are we doing section*/
+
+.what-title {
+font-weight: 700;
+font-size: 36px;
+line-height:1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+/*our team section*/
+
+.our-team-title {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-names {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-positions {
+font-weight: 400;
+font-size: 16px;
+line-height:1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*footer*/
+.footer {
+background: #2F303A;
+}
+
+.adress {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
 }
