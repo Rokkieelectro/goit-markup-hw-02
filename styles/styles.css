@@ -1,15 +1,17 @@
 body {
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-header{
-background-color: #FFFFFF;;
+header {
+  background-color: #ffffff;
 }
 
-.list{
-list-style: none;
+.list {
+  list-style: none;
+}
 
+.logo  {
+    text-decoration: none;
 }
 
 .logo-web {
@@ -22,35 +24,111 @@ color: #2196F3;
 }
 
 .logo-studio {
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-/* identical to box height */
-letter-spacing: 0.03em;
-color: #000000; 
-
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
 }
 
-.nav-list{
+.navlist {
+font-family: 'Roboto';
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
+text-decoration: none;
 }
 
+.list-item {
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+text-decoration: none;
+}
 
-.nav-list :hover{
+.list-item:hover {
+;color: #2196F3}
+
+.list-item:focus {
+;color: #2196F3}
+
+.nav-site {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+text-decoration: none;
+}
+
+.nav-tel {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+text-decoration: none;
+}
+
+.nav-site:hover{
+color: #2196F3;
+}
+
+.nav-site:focus{
+color: #2196F3;
+}
+
+.nav-tel:hover {
     color: #2196F3;
-
 }
-
-.nav-list :focus{
+.nav-tel:focus {
     color: #2196F3;
-    text-transform: none;
-    
 }
 
-.noDecoration, a:link, a:visited {
-    text-decoration: none;
+.hero {
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
 }
+
+/*main*/
+
+.hero-title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height:1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.hero-button {
+    font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+
