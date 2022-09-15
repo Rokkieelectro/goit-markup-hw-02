@@ -98,6 +98,7 @@ header {
 .nav-tel:focus {
   color: #2196f3;
 }
+/*main*/
 
 .hero {
   width: 1600px;
@@ -107,7 +108,6 @@ header {
   background: #2f303a;
 }
 
-/*main*/
 
 .hero-title {
   font-family: "Roboto";
