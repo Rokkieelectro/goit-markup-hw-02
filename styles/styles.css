@@ -193,6 +193,14 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
+.team {
+    background: #F5F4FA;
+}
+
+.team-card {
+    background: #FFFFFF;
+}
+
 /*footer*/
 .footer {
 background: #2F303A;
@@ -205,3 +213,4 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
+
