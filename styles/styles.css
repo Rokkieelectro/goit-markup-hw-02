@@ -2,6 +2,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+:root {
+    --hover-color: #2196f3; 
+    --focus-color: #2196f3;
+
+}
+/*-----------------------header----------------*/
 header {
   background-color: #ffffff;
 }
@@ -12,6 +18,7 @@ header {
 
 .logo {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .logo-web {
@@ -54,11 +61,11 @@ header {
 }
 
 .list-item:hover {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
 .list-item:focus {
-  color: #2196f3;
+  color:var(--focus-color);
 }
 
 .nav-site {
@@ -84,20 +91,20 @@ header {
 }
 
 .nav-site:hover {
-  color: #2196f3;
+  color:var(--hover-color);
 }
 
 .nav-site:focus {
-  color: #2196f3;
+  color: var(--focus-color);
 }
 
 .nav-tel:hover {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 .nav-tel:focus {
-  color: #2196f3;
+  color:var(--focus-color);
 }
-/*main*/
+/*----------------------------main------------------------*/
 
 .hero {
   width: 1600px;
@@ -122,6 +129,13 @@ header {
 }
 
 .hero-button {
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+}
+
+.hero-button-text {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -152,7 +166,7 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
-/*what are we doing section*/
+/*-------------what are we doing section-----------------------*/
 
 .what-title {
 font-weight: 700;
@@ -164,7 +178,7 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 
-/*our team section*/
+/*----------------------our team section-----------------------------*/
 
 .our-team-title {
     font-weight: 700;
@@ -201,12 +215,21 @@ color: #757575;
     background: #FFFFFF;
 }
 
-/*footer*/
+/*--------------------------footer---------------------*/
 .footer {
 background: #2F303A;
 }
 
+.footer-studio {
+    font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
 .adress {
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
