@@ -8,6 +8,7 @@ body {
     --main-text-color:  #212121;
     --add-text-color: #757575;
 
+ 
 }
 /*-----------------------header----------------*/
 header {
@@ -68,6 +69,10 @@ header {
 
 .list-item:focus {
   color:var(--focus-color);
+}
+
+.navlist .list-item.current {
+    color: var(--focus-color);
 }
 
 .nav-site {
