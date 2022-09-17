@@ -20,6 +20,11 @@ header {
 }
 
 .logo {
+font-family: 'Raleway';
+
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
   text-decoration: none;
   cursor: pointer;
 }
@@ -86,6 +91,8 @@ header {
   text-decoration: none;
 }
 
+
+
 .nav-tel {
   font-family: "Roboto";
   font-style: normal;
@@ -143,7 +150,8 @@ cursor: pointer;
 }
 
 .hero-button-text {
-  font-family: inherit;
+
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -159,7 +167,7 @@ cursor: pointer;
 .benefit-title {
 font-weight: 700;
 font-size: 14px;
-line-height: 1.87;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
@@ -236,11 +244,23 @@ color: #FFFFFF;
 }
 
 .adress {
+
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+}
+
+.nav-site-footer, .nav-tel-footer {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
 }
 

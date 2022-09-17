@@ -44,7 +44,6 @@ background-color: #ffffff;
 
 .navlist {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -55,7 +54,6 @@ background-color: #ffffff;
 
 .list-item {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -79,7 +77,6 @@ background-color: #ffffff;
 
 .nav-site {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -90,7 +87,6 @@ background-color: #ffffff;
 
 .nav-tel {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -141,6 +137,7 @@ background: var(--focus-color);
 }
 
 .fltr-txt {
+font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -192,7 +189,6 @@ color: #FFFFFF;
 
 .adress {
 font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
