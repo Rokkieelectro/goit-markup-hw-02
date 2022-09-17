@@ -47,8 +47,7 @@ line-height: calc(31 / 26);
 }
 
 .navlist {
-  font-family: "Roboto";
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,8 +57,7 @@ line-height: calc(31 / 26);
 }
 
 .list-item {
-  font-family: "Roboto";
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -81,8 +79,7 @@ line-height: calc(31 / 26);
 }
 
 .nav-site {
-  font-family: "Roboto";
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -94,8 +91,7 @@ line-height: calc(31 / 26);
 
 
 .nav-tel {
-  font-family: "Roboto";
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -121,17 +117,13 @@ line-height: calc(31 / 26);
 /*----------------------------main------------------------*/
 
 .hero {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
+
   background: #2f303a;
 }
 
 
 .hero-title {
-  font-family: "Roboto";
-  font-style: normal;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -151,7 +143,7 @@ cursor: pointer;
 
 .hero-button-text {
 
-  font-family: 'Raleway';
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
